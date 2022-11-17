@@ -43,11 +43,8 @@ body {
   justify-content: center;
 }
 .wrapper .container .contents .user img {
-  box-shadow: rgba(0, 0, 0, 0.2274509804) 3px 3px 15px;
-  border-radius: 100%;
-  padding: 0px;
-  margin-bottom: 12px;
   width: 15em;
+  height: 15em;
 }
 .wrapper .container .contents .user h1 {
   font-size: 40px;
