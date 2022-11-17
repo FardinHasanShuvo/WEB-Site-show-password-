@@ -1,0 +1,214 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background: rgba(204, 160, 255, 0.5960784314);
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.wrapper .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .container .navbar {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  left: 25px;
+  top: 10px;
+}
+.wrapper .container .navbar a {
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.3764705882) 2px 2px 12px;
+}
+.wrapper .container .contents {
+  padding: 4em 5em;
+  background-color: rgba(0, 162, 255, 0.1647058824);
+  box-shadow: rgba(0, 0, 0, 0.3647058824) 3px 3px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7em;
+}
+.wrapper .container .contents .user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper .container .contents .user img {
+  filter: opacity(0.8) invert(100%) drop-shadow(rgba(0, 0, 0, 0.2274509804) 3px 3px 15px);
+  width: 15em;
+}
+.wrapper .container .contents .user h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  opacity: 0.9;
+  text-shadow: rgba(0, 0, 0, 0.2274509804) 3px 3px 15px;
+}
+.wrapper .container .contents .forms {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .container .contents .forms .mail {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  align-items: center;
+}
+.wrapper .container .contents .forms .mail img {
+  display: flex;
+  position: absolute;
+  width: 2em;
+  margin-left: 6px;
+  filter: invert(40%);
+}
+.wrapper .container .contents .forms .mail #email {
+  padding: 0.7em 3em;
+  color: rgba(0, 0, 0, 0.4196078431);
+  font-size: 19px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1764705882);
+  box-shadow: rgba(0, 0, 0, 0.2039215686) 3px 3px 30px;
+  transition: 300ms;
+}
+.wrapper .container .contents .forms .mail #email::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4196078431);
+}
+.wrapper .container .contents .forms .mail #email:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4196078431);
+}
+.wrapper .container .contents .forms .mail #email::placeholder {
+  color: rgba(0, 0, 0, 0.4196078431);
+}
+.wrapper .container .contents .forms .mail #email:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper .container .contents .forms .mail #email:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper .container .contents .forms .mail #email:focus::placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper .container .contents .forms .pass {
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 0%;
+}
+.wrapper .container .contents .forms .pass img {
+  display: flex;
+  position: absolute;
+  width: 2em;
+  margin-left: 6px;
+  filter: invert(40%);
+}
+.wrapper .container .contents .forms .pass #password {
+  padding: 0.7em 3em;
+  color: rgba(0, 0, 0, 0.4196078431);
+  font-size: 19px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1764705882);
+  box-shadow: rgba(0, 0, 0, 0.2039215686) 3px 3px 30px;
+  transition: 300ms;
+}
+.wrapper .container .contents .forms .pass #password::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4196078431);
+}
+.wrapper .container .contents .forms .pass #password:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4196078431);
+}
+.wrapper .container .contents .forms .pass #password::placeholder {
+  color: rgba(0, 0, 0, 0.4196078431);
+}
+.wrapper .container .contents .forms .pass #password:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper .container .contents .forms .pass #password:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper .container .contents .forms .pass #password:focus::placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper .container .contents .forms .login {
+  margin-top: 11px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .container .contents .forms .login a {
+  transition: 250ms;
+}
+.wrapper .container .contents .forms .login a:hover {
+  background-color: rgba(72, 72, 72, 0.5058823529);
+  border-radius: 14px;
+  padding: 0ch;
+}
+.wrapper .container .contents .forms .login a:hover img {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  filter: invert(100%);
+}
+.wrapper .container .contents .forms .login a img {
+  height: 55px;
+  filter: invert(30%);
+}
+.wrapper .container .contents .forms .show {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.4196078431);
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.wrapper .container .contents .forms .show input#check {
+  margin: 0 0.6em;
+}
+.wrapper .container .contents .forms .new {
+  margin: 0%;
+  padding: 0ch;
+  display: flex;
+  position: relative;
+  top: 0%;
+  justify-content: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4196078431);
+  font-size: 19px;
+}
+.wrapper .container .contents .forms .new p.new-acc {
+  margin: 5px;
+}
+.wrapper .container .contents .forms .new p.new-acc span a {
+  color: rgba(0, 0, 0, 0.5098039216);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 300ms;
+}
+.wrapper .container .contents .forms .new p.new-acc span a:hover {
+  color: white;
+}
+
+footer .foot {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  left: 1em;
+}/*# sourceMappingURL=main.css.map */
