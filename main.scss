@@ -41,11 +41,16 @@ body {
       margin-top: 7em;
 
       .user {
+        // background-color: red;
         display: flex;
         flex-direction: column;
         justify-content: center;
         img {
-          filter: opacity(0.8) invert(100%) drop-shadow(#0000003a 3px 3px 15px);
+          // background-color: yellow;
+          box-shadow: #0000003a 3px 3px 15px;
+          border-radius: 100%;
+          padding: 0px;
+          margin-bottom: 12px;
           width: 15em;
         }
         h1 {
