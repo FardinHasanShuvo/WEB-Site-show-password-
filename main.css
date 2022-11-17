@@ -169,6 +169,7 @@ body {
 .wrapper .container .contents .forms .login a img {
   height: 55px;
   filter: invert(30%);
+  padding-top: 2px;
 }
 .wrapper .container .contents .forms .show {
   margin-top: 5px;
