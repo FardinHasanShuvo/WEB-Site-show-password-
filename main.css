@@ -163,7 +163,6 @@ body {
 .wrapper .container .contents .forms .login a:hover img {
   padding-left: 2px;
   padding-right: 2px;
-  padding-top: 2px;
   filter: invert(100%);
 }
 .wrapper .container .contents .forms .login a img {

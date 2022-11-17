@@ -150,7 +150,7 @@ body {
           a {
             // background-color: rgba(255, 255, 255, 0.502);
             transition: 250ms;
-          
+
             &:hover {
               background-color: #48484881;
               border-radius: 14px;
@@ -159,7 +159,6 @@ body {
                 // background-color: rgba(202, 48, 48, 0.502);
                 padding-left: 2px;
                 padding-right: 2px;
-                padding-top: 2px;
                 filter: invert(100%);
               }
             }
